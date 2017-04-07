@@ -14,15 +14,16 @@ body {
 	
 }
 
+#myNavbar{
+  margin-right: 40px;
+}
+
 .full {
-	
-  
   width: 100%;
   height: auto;
   padding: 100px;
-  text-align: center;
-  background: url('file:///Users/katiejanelabauve/Desktop/cscdev/img/csc.jpg') no-repeat bottom center scroll;
-  background-color: white;
+  /*background: url('file:///Users/katiejanelabauve/Desktop/projects/nancy/img/sofa.jpg') no-repeat bottom center scroll;*/
+  background-color:  #e5fff7;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -30,21 +31,38 @@ body {
   min-height: 600px;
   margin-bottom: 10px;
 }
+.welcome{
+  font-size: 46px;
+  letter-spacing: 12px;
+}
+.textdown{
+  margin-top: 50px;
+  text-align: justify;
+}
 
 
 .textcenter{
-	text-align: center;
-	margin-top: 100px;
-	background:rgba(255,255,255,0.9);
-	font-size: 64px;
-	height: 80px;
+	font-size: 50px;
 	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 40px;
+  background: rgba(255, 255, 255);
+  margin-top: 0px;
+  text-align: center;
+ 
+}
+.row.footer{
+  text-align: center;
+  background-color: light grey;
+  padding-top: 20px;
+
+}
+
+
 }
 h1.textcenter1{
 	text-align: justify;
+}
+a{
+  color: black;
 }
 
 
@@ -52,12 +70,14 @@ h1.textcenter1{
   	padding-top:100px;
   	height:620px; 
   	background-color: white;
-  	text-align: center;
+  	text-align: justify;
   	color: black;
+    width: 100%;
+    padding: 100px;
 
   }
   #about h1{
-  	font-size: 44px;
+  	font-size: 46px;
   }
   #services {
   	padding-top:100px;
