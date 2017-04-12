@@ -110,6 +110,9 @@ a{
   box-shadow: 0px 0px 2px black;
   padding: 30px;
 }
+form{
+  padding: 50px;
+}
 
 .bold{
   font-weight: bold;
